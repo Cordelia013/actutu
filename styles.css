@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+  
+}
+
+
+
+/* ************************************************************* */
+/* générale*/
+
+body{
+    margin-left:113px;
+    width: 1000px;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+   
+}
+
+button{
+    background-color: #4A3174;
+    color: #ffffff;
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 20px;
+}
+#header{
+    position: relative;
+    top: 18px;
+    display: block;
+    background-color: rgb(152, 185, 247); 
+}
+ 
+#logoS{
+    position: relative;
+    top: 186px;
+    background-color: rgb(210, 177, 241);
+
+}
+
+.icon{
+    width: 50px;
+    height: 50px;
+    line-height:  58,59px;
+}
+
+.imgreco{
+    width: 253px;
+    height: 365px;
+}
+
+.imgbook{
+    width: 81px;
+    height: 117px;
+}
+
+
+
+
+/* ************************************************************* */
+/* partie navigation / header*/
+
+#header ul{
+    display: flex;
+    justify-content: flex-start;
+    
+
+}
+#header ul li{
+    display: flex;
+    justify-content: flex-start;
+    padding-right: 42px;
+
+}
+
+#header div a{
+    position: absolute;
+    top: 0px;
+    right: 269px;
+}
+#header div button{
+    position: absolute;
+    top: 0px;
+    right: 90px;
+    width: 163px;
+    height: 40px;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+
+.actmenu:active{
+    font-weight: bold;
+    color: #4A3174;
+
+}
+
+
+
+
+
+/* ************************************************************* */
+/* partie presentation logo + barre de recherche */
+
+#logoS img{
+    position: relative;
+    width: 138px;
+    height: 73px;
+}
+
+
+/* ************************************************************* */
+/* partie recommandation */
+
+#recommandation{
+position: relative;
+top:481px;
+}
+
+/* ************************************************************* */
+/* partie description des livres */
+
+
+
+
+/* ************************************************************* */
+/* partie footer*/
+
+#footer{
+    margin: 0px;
+   position: relative;
+    background-color:#4A3174;
+    color: #ffffff;
+    width: 1200px;
+    height: 320px;
+   
+}
+#footer img{
+    position:absolute;
+}
+
+#footer a{
+    color: #ffffff;
+}

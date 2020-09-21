@@ -1,6 +1,6 @@
 # Actutu
 
-Creation d'un site pour la 1er évalution des la forùation developpeur web et web mobile
+Creation d'un site pour la 1er évalution des la formation developpeur web et web mobile
 
 ## en cours
         * integration html/ css
@@ -18,16 +18,16 @@ Creation d'un site pour la 1er évalution des la forùation developpeur web et w
     *  integration d'une design
 
             * html :(eviter les balise div)
-                * verifier la conformite html ( lien [https://validator.w3.org/])
+* verifier la conformite html ( lien [https://validator.w3.org/])
 
-    * CSS : utiliser la propriété universel, bien mettre en place les classe commune , et les ID
+        * CSS : utiliser la propriété universel, bien mettre en place les classe commune , et les ID
 
-            * vefifier  la conformité CSS ( lien [https://jigsaw.w3.org/css-validator/])
+* vefifier  la conformité CSS ( lien [https://jigsaw.w3.org/css-validator/])
 
     * mise en place de la page de facon dynamique 
 
             * utiliser le Js :fetch (natif) ou librairie Axios
 
-    * utiliser leDOM pour afficher les resultats.
+    * utiliser le DOM pour afficher les resultats.
 
     
