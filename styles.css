@@ -35,6 +35,12 @@ button{
     line-height: 20px;
 }
 
+span{
+    font-weight: bold;
+    font-size: 16px;
+    color: #7A7A7A;
+
+}
 #header{
     max-width: 1000px;
     position: relative;
@@ -59,6 +65,7 @@ button{
     position: relative;
     top:500px;
     display: grid;
+  
     grid-template-columns: 33% 33% auto;
     grid-template-rows: 10% 35% 35% 20%;
 }
@@ -85,12 +92,38 @@ button{
 .imgreco{
     width: 253px;
     height: 365px;
+    margin: 20px;
+}
+
+.co{
+    height: 313px;
+}
+.txt{
+    position:relative;
+    top:47px;
 }
 
 .imgbook{
     width: 83px;
     height: 118px;
+    
+} 
+
+
+.titrebook{
+    color: #222222;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 20px 20px 0 20px;
 }
+
+.pricebook{
+    color: #4A3174;
+    opacity: 0.42;
+    margin: 0 0px 18px 20px;
+}
+
+
 /* ************************************************************* */
 /* partie navigation / header*/
 
@@ -189,9 +222,6 @@ button.btn:nth-child(5) {
 } 
 
 
-
-
-
 /* ************************************************************* */
 /* partie recommandation */
 
@@ -204,6 +234,7 @@ button.btn:nth-child(5) {
 
 #recommandation article{
     margin: 20px;
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.10);
   
 }
 #recommandation article:nth-child(2){
@@ -214,14 +245,15 @@ button.btn:nth-child(5) {
 }
 
 #recommandation article:nth-child(3){
-   
+
     grid-column: 2;
     grid-row: 2/4; 
 
 }
 
+
 #recommandation article:nth-child(4){
-  
+    
     grid-column: 3;
     grid-row: 2/4; 
 
@@ -241,17 +273,8 @@ button.btn:nth-child(5) {
     grid-row: 1; 
 }
 
-#book .titrebook{
-     color:#CBCBCB;
-     font-size: 14px;
-     font-weight: bold;
- }
 
-#book .pricebook{
 
-    color: #4A3174;
-    opacity: 0.42;
- }
 
 /* positionnement book*/
 #book{
