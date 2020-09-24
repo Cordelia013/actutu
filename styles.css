@@ -9,7 +9,7 @@
 
 /* ************************************************************* */
 /* générale*/
-#header,#logoS,#recommandation,#book
+#header,#logoS,#recommandation,#book,#footer
 {
     position: absolute;
     left: 133px;
@@ -123,6 +123,7 @@ span{
 
 
 #footer{
+    max-width: 1000px;
     position:relative;
     top: 559px;
     background-color:#4A3174;
@@ -353,7 +354,7 @@ button.btn:nth-child(5) {
   background-color: red;
     
  }
- 
+
  #footer div:nth-child(5) {
     display: flex;
   background-color: green;
