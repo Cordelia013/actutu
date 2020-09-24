@@ -3,14 +3,15 @@
 Creation d'un site pour la 1er évalution des la formation developpeur web et web mobile
 
 ## en cours
-        * integration html/ css
+      * travail sur la partie js
 ## A faire
        
         * adapter pour 2 style d'ecran 1000px et +, 800 px en largeur
         * creer un mise en page responsive jusqu'a 640px
+        * mise en place du php
        
 ## terminer
-
+  * integration html/ css
 ## A revoir
 
 ## context
