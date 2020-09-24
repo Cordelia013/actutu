@@ -3,22 +3,16 @@
 Creation d'un site pour la 1er évalution des la formation developpeur web et web mobile
 
 ## en cours
-
-      * travail sur la partie js: dans la partie book, mettre en place un effect avec la souris. CAD: 
-                **agrandir le prix et l'affficher en jaune
-                **accentuer l'ombre
-                ** afiché le resumé du livre en plus foncé
-
+                *creer une fonction Js afficheRecommmandations(), le relier au tableau creer , qui permttra d'affichier 3 livre au hasard.
+      
 ## A faire
 
 ### responsive
 
-       prendre en compte des infos dans les bulle mauve.
-       test a faire jsqu'a 640px.
+       * prendre en compte des infos dans les bulle mauve. (test a faire jsqu'a 640px.)
 
 ### rendre la site dynamique
 
-        * creer un tableau de livre en javascript (info a affiché: titre; nom de l'auteur, le prix, une image et un résumé.) => mettre  4 livres factices dans le tableau pour pouvoir tester le code.
 
         *creer une fonction Js afficheRecommmandations(), le relier au tableau creer , qui permttra d'affichier 3 livre au hasard.
 
@@ -29,6 +23,8 @@ Creation d'un site pour la 1er évalution des la formation developpeur web et we
 ### interger une api google
 
 ## terminer
+
+        * creer un tableau de livre en javascript (info a affiché: titre; nom de l'auteur, le prix, une image et un résumé.) => mettre  4 livres factices dans le tableau pour pouvoir tester le code.
 
 ## A revoir
 
