@@ -25,14 +25,10 @@ Creation d'un site pour la 1er évalution des la formation developpeur web et we
         * creer une fonction affiche livre(prix max) , le relier au tableau creer precedemment.le but est d'afficher les livres en fonction de leur prix. cette option est a passer en parametre. idee de cration de filtre .
 
         * les deux fonctions devront s'actionner au demarage du site.
+
 ### interger une api google
 
-        
-
-
 ## terminer
-
-
 
 ## A revoir
 
@@ -54,5 +50,3 @@ Creation d'un site pour la 1er évalution des la formation developpeur web et we
         * utiliser le Js :fetch (natif) ou librairie Axios
 
     * utiliser le DOM pour afficher les resultats.
-
-    
