@@ -3,8 +3,10 @@
 Creation d'un site pour la 1er évalution des la formation developpeur web et web mobile
 
 ## en cours
+
                 *creer une fonction Js afficheRecommmandations(), le relier au tableau creer , qui permttra d'affichier 3 livre au hasard.
-      
+
+
 ## A faire
 
 ### responsive

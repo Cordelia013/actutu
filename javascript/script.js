@@ -1,4 +1,6 @@
-tomebook= [{
+
+/* creation d'un tableau javascript */
+let tomebook= [{
     titre:"Community",
 
     auteur: "Luna Joyce",
@@ -46,3 +48,9 @@ tomebook= [{
     resume: "Noa se réveille sur une table d’opération, une cicatrice en travers de la poitrine. Elle ne sait pas où elle est, comment elle est arrivée là, ni même pourquoi elle a été opérée. Alors elle prend la fuite. Les tueurs à ses trousses confirment vite ses soupçons : rien de tout cela n’est légal. La jeune fille, hacker talentueuse et solitaire, vit depuis plusieurs années en marge de la société et pense pouvoir semer facilement ses poursuivants. Elle se trompe : pour la première fois de sa vie, si elle veut survivre, Noa a besoin d’aide. Car elle est la clé d’un terrible secret. Et ceux qui la traquent n’ont aucune intention de la laisser s’échapper.",
 }]
 
+/* je creer un fonction JS "afficheRecommandation()" et qui affichera 3 livre de facon aléatoire */
+
+function afficheRecommandations(let propriete in tomebook){
+
+    document.getElementById('recojs').innerHTML += tomebook[propriete] + '<br>';
+}

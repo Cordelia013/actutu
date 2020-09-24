@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <script src="./javascript/script.js"></script>
     <title>Association Actutu</title>
 </head>
 <body>
@@ -15,7 +16,7 @@
         <li><a class="menu" href="#">Rechercher</a></li>
         <li><a class="menu" href="#">A propos</a></li>
     </ul>
-    <div class="connect"></div>
+    <div class="connect">
         <a href="#">Se Connecter</a>
         <button class="btn"> S'inscrire</button>
     </div> 
@@ -36,20 +37,20 @@
 
     <h2> <img class="icon" src="img/📙.jpg" alt="icon yellow"> Recommandations</h2>
 
-    <article >
-        <img class="imgreco" src="img/Rectangle 1.jpg" alt="bookselection">
+    <article id="recojs1">
+        <img class="imgreco" src="img/Rectangle1.jpg" alt="bookselection">
         <h3 class="titrebook ">Learning ECMASript 6 <br><span>Narayan prusty</span></h3>
         <p class=" pricebook ">27.42€</p>
     </article>
 
-    <article>
-        <img class="imgreco co" src="img/Rectangle 7.jpg" alt="bookselection">
+    <article id="recojs2">
+        <img class="imgreco co" src="img/Rectangle7.jpg" alt="bookselection">
         <h3 class="titrebook txt">Learning ECMASript <br><span>Narayan prusty</span></h3>
         <p class=" pricebook txt">18.99€</p>
     </article>
 
-    <article>
-        <img class="imgreco co" src="img/Rectangle 9.jpg" alt="bookselection">
+    <article id="recojs3">
+        <img class="imgreco co" src="img/Rectangle9.jpg" alt="bookselection">
         <h3 class="titrebook txt">ECMASript Cookbook <br><span>Ross Harrison</span></h3>
         <p class=" pricebook txt">19.99€</p>
     </article>
@@ -63,7 +64,7 @@
    
     
     <article>
-        <img class="imgbook" src="img/Rectangle 13.jpg" alt="booklist" >
+        <img class="imgbook" src="img/Rectangle13.jpg" alt="booklist">
      <div> 
         <h2 class="titrebook">Learning ECMAScript 6 <br> <span>Narayan Prusty</span></h2>
         <p> Learn all the new ES6 features and be amongst the most prominent JavaScript  developers who can write efficient JS programs as per the latest standards! About This Book Learn a powerful approach to writing object-oriented JavaScript code using ES6 Create and use ES6 modules to learn to write smart, modularized JavaScript code</p> 
@@ -75,7 +76,7 @@
 
         
     <article>
-        <img class="imgbook" src="img/Rectangle 13.jpg" alt="booklist" >
+        <img class="imgbook" src="img/Rectangle13.jpg" alt="booklist" >
      <div> 
         <h2 class="titrebook">Learning ECMAScript 6 <br> <span>Narayan Prusty</span></h2>
         <p> Learn all the new ES6 features and be amongst the most prominent JavaScript  developers who can write efficient JS programs as per the latest standards! About This Book Learn a powerful approach to writing object-oriented JavaScript code using ES6 Create and use ES6 modules to learn to write smart, modularized JavaScript code</p> 
@@ -87,7 +88,7 @@
     
 
     <article>
-        <img class="imgbook" src="img/Rectangle 13.jpg" alt="booklist" >
+        <img class="imgbook" src="img/Rectangle13.jpg" alt="booklist" >
      <div> 
         <h2 class="titrebook">Learning ECMAScript 6 <br> <span>Narayan Prusty</span></h2>
         <p> Learn all the new ES6 features and be amongst the most prominent JavaScript  developers who can write efficient JS programs as per the latest standards! About This Book Learn a powerful approach to writing object-oriented JavaScript code using ES6 Create and use ES6 modules to learn to write smart, modularized JavaScript code</p> 
@@ -96,7 +97,7 @@
     </article>
 
     <article>
-        <img class="imgbook" src="img/Rectangle 13.jpg" alt="booklist" >
+        <img class="imgbook" src="img/Rectangle13.jpg" alt="booklist" >
      <div> 
         <h2 class="titrebook">Learning ECMAScript 6 <br> <span>Narayan Prusty</span></h2>
         <p> Learn all the new ES6 features and be amongst the most prominent JavaScript  developers who can write efficient JS programs as per the latest standards! About This Book Learn a powerful approach to writing object-oriented JavaScript code using ES6 Create and use ES6 modules to learn to write smart, modularized JavaScript code</p> 
@@ -105,7 +106,7 @@
     </article>
     
     <article>
-        <img class="imgbook" src="img/Rectangle 13.jpg" alt="booklist" >
+        <img class="imgbook" src="img/Rectangle13.jpg" alt="booklist" >
      <div> 
         <h2 class="titrebook">Learning ECMAScript 6 <br> <span>Narayan Prusty</span></h2>
         <p> Learn all the new ES6 features and be amongst the most prominent JavaScript  developers who can write efficient JS programs as per the latest standards! About This Book Learn a powerful approach to writing object-oriented JavaScript code using ES6 Create and use ES6 modules to learn to write smart, modularized JavaScript code</p> 
@@ -117,7 +118,7 @@
 
 <section id="footer">
 
-    <img src="img/Group 6.svg" alt="logo footer">
+    <img src="img/Group6.svg" alt="logo footer">
     <h2>Toutes les ressources du site</h2>
 <div>
     <ul>
@@ -129,21 +130,23 @@
 </div>
 
 <div>
-    <li><a href="#">Policier</a></li> 
-    <li><a href="#">Science Fiction</a></li> 
-    <li><a href="#">Frisson</a></li> 
-    <li><a href="#">Mediéval</a></li> 
-    <li><a href="#">Toutes les categories</a></li>  
-
+    <ul>
+        <li><a href="#">Policier</a></li> 
+        <li><a href="#">Science Fiction</a></li> 
+        <li><a href="#">Frisson</a></li> 
+        <li><a href="#">Mediéval</a></li> 
+        <li><a href="#">Toutes les categories</a></li>  
+    </ul>   
 </div>
 
 <div>
-    
+    <ul>
     <li><a href="#">Promotions</a></li> 
     <li><a href="#">Livre à paraitre prochainement</a></li> 
     <li><a href="#">Meilleures ventes</a></li> 
     <li><a href="#">Incontournables</a></li> 
     <li><a href="#">Tous les bons plans</a></li>  
+    </ul>
 </div>
     
 
