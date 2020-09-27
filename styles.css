@@ -63,9 +63,8 @@ span{
 #recommandation{
     max-width:1000px;
     position: relative;
-    top:500px;
+    top:450px;
     display: grid;
-  
     grid-template-columns: 33% 33% auto;
     grid-template-rows: 10% 35% 35% 20%;
 }
@@ -76,6 +75,7 @@ span{
     max-width:1000px;
     position: relative;
     top:500px;
+    padding-bottom: 20px;
    
 }
 

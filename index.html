@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <script src="javascript/scripts.js"></script>
+   
     <link rel="stylesheet" href="css/resp.css"/>
     <title>Association Actutu</title>
 </head>
@@ -39,16 +39,18 @@
     <h2> <img class="icon" src="img/📙.jpg" alt="icon yellow"> Recommandations</h2>
 
     <article id="recojs1">
-        <img class="imgreco" src="img/Rectangle1.jpg" alt="bookselection">
-        <h3 class="titrebook ">Learning ECMASript 6 <br><span>Narayan prusty</span></h3>
-        <p class=" pricebook ">27.42€</p>
+        <img class="imgreco"src="img/Rectangle1.jpg" alt="bookselection">
+        <h3 class="titrebook ">Learning ECMASript 6 <br><span id="authors">Narayan prusty</span></h3>
+        <p class=" pricebook" >27.42€</p>
     </article>
+
 
     <article id="recojs2">
         <img class="imgreco co" src="img/Rectangle7.jpg" alt="bookselection">
         <h3 class="titrebook txt">Learning ECMASript <br><span>Narayan prusty</span></h3>
         <p class=" pricebook txt">18.99€</p>
     </article>
+
 
     <article id="recojs3">
         <img class="imgreco co" src="img/Rectangle9.jpg" alt="bookselection">
@@ -64,8 +66,8 @@
     <h2> <img class="icon" src="img/📘.jpg" alt="icon blue"> Les livres à moins de <span>20€</span></h2>
    
     
-    <article>
-        <img class="imgbook" src="img/Rectangle13.jpg" alt="booklist">
+    <article id="api-response">
+        <img class="imgbook" id="" src="img/Rectangle13.jpg" alt="booklist">
      <div> 
         <h2 class="titrebook">Learning ECMAScript 6 <br> <span>Narayan Prusty</span></h2>
         <p> Learn all the new ES6 features and be amongst the most prominent JavaScript  developers who can write efficient JS programs as per the latest standards! About This Book Learn a powerful approach to writing object-oriented JavaScript code using ES6 Create and use ES6 modules to learn to write smart, modularized JavaScript code</p> 
@@ -76,7 +78,7 @@
 
 
         
-    <article>
+    <article id="api-response2">
         <img class="imgbook" src="img/Rectangle13.jpg" alt="booklist" >
      <div> 
         <h2 class="titrebook">Learning ECMAScript 6 <br> <span>Narayan Prusty</span></h2>
@@ -88,7 +90,7 @@
 
     
 
-    <article>
+    <article id="api-response3">
         <img class="imgbook" src="img/Rectangle13.jpg" alt="booklist" >
      <div> 
         <h2 class="titrebook">Learning ECMAScript 6 <br> <span>Narayan Prusty</span></h2>
@@ -97,7 +99,7 @@
         <p class=" pricebook">27.42 €</p>     
     </article>
 
-    <article>
+    <article id="api-response4">
         <img class="imgbook" src="img/Rectangle13.jpg" alt="booklist" >
      <div> 
         <h2 class="titrebook">Learning ECMAScript 6 <br> <span>Narayan Prusty</span></h2>
@@ -106,7 +108,7 @@
         <p class=" pricebook">27.42 €</p>     
     </article>
     
-    <article>
+    <article id="api-response5">
         <img class="imgbook" src="img/Rectangle13.jpg" alt="booklist" >
      <div> 
         <h2 class="titrebook">Learning ECMAScript 6 <br> <span>Narayan Prusty</span></h2>
@@ -152,6 +154,18 @@
     
 
 </section >
-
+<script src="javascript/main.js"></script>
+<script>
+    
+    sendQuery('https://www.googleapis.com/books/v1/volumes?q=ecmascript')
+    
+    sendQueryWithCallback(
+        'https://www.googleapis.com/books/v1/volumes?q=ecmascript','GET',
+                    (response) => {
+                        console.log('Réponse de l\'api au format String', response);
+                        response = JSON.parse(response);
+                        console.log('Réponse de l\'api au format Json', response)}
+                );
+</script>
 </body>
 </html>
