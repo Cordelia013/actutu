@@ -51,14 +51,13 @@ let tomebook= [
     /* je creer un fonction JS "afficheRecommandation()" et qui affichera 3 livre de facon aléatoire */
 
      function afficheRecommandations() {
-        let book="tomebook";
-
-    for (var i = 0; i <= 3; i++) {
       
-       console.log(i)
+    for (let i=0; i<3; i++) {
+      
+        
+        console.log(tomebook[i]);
     }
-}  
-
-let book = Math.floor(Math.random()*tomebook.length);
-
+    
+     }
+     afficheRecommandations()
 
