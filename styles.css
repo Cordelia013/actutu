@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    margin:0 ;
+    padding:0;
+}
+
+/* ************************************************************* */
+/* générale*/
+#header,#logoS,#recommandation,#book,#footer
+{
+    position: absolute;
+    left: 133px;
+    right: 90px;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+   
+}
+
+button{
+    background-color: #4A3174;
+    color: #ffffff;
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 20px;
+}
+
+span{
+    font-weight: bold;
+    font-size: 16px;
+    color: #7A7A7A;
+
+}
+#header{
+    max-width: 1000px;
+    position: relative;
+    top: 18px;
+    display: grid;
+    grid-template-columns: 55% 25% 10% 10%;
+    grid-template-rows: 50% 50%;
+   }
+     
+#logoS{
+    max-width:1000px;
+    position: relative;
+    top: 186px;
+    display: grid;
+    grid-template-columns: 20%  20%  20% 10% 10% 10% 10%;
+    grid-template-rows: 50% 50%;
+  
+
+}
+#recommandation{
+    max-width:1000px;
+    position: relative;
+    top:500px;
+    display: grid;
+  
+    grid-template-columns: 33% 33% auto;
+    grid-template-rows: 10% 35% 35% 20%;
+}
+
+
+#book{
+    font-family: Roboto;
+    max-width:1000px;
+    position: relative;
+    top:500px;
+   
+}
+
+
+
+.icon{
+    width: 50px;
+    height: 50px;
+    line-height:  58,59px;
+}
+
+.imgreco{
+    width: 253px;
+    height: 365px;
+    margin: 20px;
+}
+
+.co{
+    height: 313px;
+}
+.txt{
+    position:relative;
+    top:47px;
+}
+
+.imgbook{
+    width: 83px;
+    height: 118px;
+    
+} 
+
+
+.titrebook{
+    color: #222222;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 20px 20px 0 20px;
+}
+
+.pricebook{
+    color: #4A3174;
+    opacity: 0.42;
+    margin: 0 0px 18px 20px;
+}
+
+
+#footer{
+    max-width: 1000px;
+    position:relative;
+    top: 559px;
+    background-color:#4A3174;
+    color: #ffffff;
+    height: 320px;
+    list-style: none;
+}
+
+
+/* ************************************************************* */
+/* partie navigation / header*/
+
+#header ul{
+    display: flex;
+    justify-content: flex-start;
+    
+
+}
+#header ul li{
+    display: flex;
+    justify-content: flex-start;
+    padding-right: 42px;
+
+}
+
+#header div a{
+    position: absolute;
+    top: 0px;
+    right: 269px;
+}
+#header div button{
+    position: absolute;
+    top: 0px;
+    right: 90px;
+    width: 163px;
+    height: 40px;
+    border-radius: 3px;
+    padding: 10px;
+    
+}
+button.btn:nth-child(4) {
+    margin-left: 16px;
+   }
+   
+
+.actmenu:active{
+    font-weight: bold;
+    color: #4A3174;
+
+}
+button.btn:nth-child(5) {
+    position: relative;
+    left: 39px;
+   }
+   
+
+/* ************************************************************* */
+/* partie presentation logo + barre de recherche */
+
+
+#logoS img:nth-child(1){
+    grid-column: 1;
+    grid-row: 1; 
+    width: 138px;
+    height: 73px;
+    position: absolute;
+}
+    
+#logoS img:nth-child(2){
+    grid-column: 2;
+    grid-row: 1; 
+    margin-right: 32px;
+    width:172px;        
+    height:46px;
+}
+
+#logoS img:nth-child(3){
+    grid-column: 2;
+    grid-row: 2; 
+    width:168px; 
+    margin:5px
+}
+
+#logoS .recherch{
+    position: relative;
+    left: 40px;
+   grid-column: 4/7;
+    grid-row: 1; 
+    height: 40px;
+    margin-right:0;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.05);
+    border-radius: 3px;
+}
+
+   
+
+#logoS .btn {
+    grid-column: 7;
+    grid-row: 1; 
+    width: 63px;
+    height: 40px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 0px 3px 3px 0px;
+} 
+
+
+/* ************************************************************* */
+/* partie recommandation */
+
+
+#recommandation h2{
+    padding-bottom: 20px;
+    grid-column: 1;
+    grid-row: 1; 
+}
+
+#recommandation article{
+    margin: 20px;
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.10);
+  
+}
+#recommandation article:nth-child(2){
+  
+    grid-column: 1;
+    grid-row: 2/4; 
+
+}
+
+#recommandation article:nth-child(3){
+
+    grid-column: 2;
+    grid-row: 2/4; 
+
+}
+
+
+#recommandation article:nth-child(4){
+    
+    grid-column: 3;
+    grid-row: 2/4; 
+
+}
+/* ************************************************************* */
+/*
+ partie description des livres */
+
+#book article{
+    padding: 20px;
+}
+
+#book div{
+    padding: 10px;
+    margin-bottom:5px;
+    text-align: justify;
+   
+}
+#book div h2{
+    font-size: 19px;
+    font-family: roboto;
+    margin-left: 44px;
+    margin-bottom:20px;
+}
+#book div p{
+    font-size: 14px;
+    font-family: roboto;
+    margin-left: 44px;
+}
+
+
+
+
+/* positionnement book*/
+
+#book article:nth-child(2){
+    display:flex;
+    flex-direction: row;
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.10);
+    }
+
+#book article:nth-child(3){
+    display:flex;
+    flex-direction: row;
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.10);
+        
+}
+#book article:nth-child(4){
+    display:flex;
+    flex-direction: row;
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.10);
+    
+}
+#book article:nth-child(5){
+    display:flex;
+    flex-direction: row;
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.10);
+}
+
+#book article:nth-child(6){
+    display:flex;
+    flex-direction:row;
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.10);
+    
+}
+
+#book article:nth-child(7){
+    display:flex;
+    flex-direction: row;
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.10);
+    
+}
+
+
+/* ************************************************************* */
+/* partie footer*/
+
+#footer div a{
+    color: #ffffff;
+   
+}
+#footer div:nth-child(3) {
+   display: flex;
+ background-color: black;
+   
+}
+#footer div:nth-child(4) {
+    display: flex;
+  background-color: red;
+    
+ }
+
+ #footer div:nth-child(5) {
+    display: flex;
+  background-color: green;
+ }
+
