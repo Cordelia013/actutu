@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
    
-    <link rel="stylesheet" href="css/resp.css"/>
+    <link rel="stylesheet" href="css/resp.css"/> 
     <title>Association Actutu</title>
 </head>
 <body>
@@ -13,11 +13,11 @@
 <section id="header">
    
     <ul>
-        <li><a class="actmenu menu" href="#">Acceuil</a> </li>
-        <li><a class="menu" href="#">Rechercher</a></li>
-        <li><a class="menu" href="#">A propos</a></li>
+        <li><a class="actmenu" href="#">Acceuil</a> </li>
+        <li><a href="#">Rechercher</a></li>
+        <li><a href="#">A propos</a></li>
     </ul>
-    <div class="connect">
+    <div>
         <a href="#">Se Connecter</a>
         <button class="btn"> S'inscrire</button>
     </div> 
@@ -38,59 +38,56 @@
 
     <h2> <img class="icon" src="img/📙.jpg" alt="icon yellow"> Recommandations</h2>
 
-    <article id="recojs1">
+    <article>
         <img class="imgreco"src="img/Rectangle1.jpg" alt="bookselection">
-        <h3 class="titrebook ">Learning ECMASript 6 <br><span id="authors">Narayan prusty</span></h3>
-        <p class=" pricebook" >27.42€</p>
+        <h3 class="titrebook">Learning ECMASript 6 <br><span id="authors">Narayan prusty</span></h3>
+        <p class="pricebook one" >27.42€</p>
     </article>
 
 
-    <article id="recojs2">
+    <article>
         <img class="imgreco co" src="img/Rectangle7.jpg" alt="bookselection">
         <h3 class="titrebook txt">Learning ECMASript <br><span>Narayan prusty</span></h3>
-        <p class=" pricebook txt">18.99€</p>
+        <p class="pricebook">18.99€</p>
     </article>
 
 
-    <article id="recojs3">
+    <article>
         <img class="imgreco co" src="img/Rectangle9.jpg" alt="bookselection">
         <h3 class="titrebook txt">ECMASript Cookbook <br><span>Ross Harrison</span></h3>
-        <p class=" pricebook txt">19.99€</p>
+        <p class="pricebook">19.99€</p>
     </article>
 
 </section>
 
-
+<!-- section livre a moins de 20€ -->
 <section id="book">
 
     <h2> <img class="icon" src="img/📘.jpg" alt="icon blue"> Les livres à moins de <span>20€</span></h2>
    
     
-    <article id="api-response">
-        <img class="imgbook" id="" src="img/Rectangle13.jpg" alt="booklist">
-     <div> 
-        <h2 class="titrebook">Learning ECMAScript 6 <br> <span>Narayan Prusty</span></h2>
-        <p> Learn all the new ES6 features and be amongst the most prominent JavaScript  developers who can write efficient JS programs as per the latest standards! About This Book Learn a powerful approach to writing object-oriented JavaScript code using ES6 Create and use ES6 modules to learn to write smart, modularized JavaScript code</p> 
-    </div> 
+    <article>
+        <img class="imgbook" src="img/Rectangle13.jpg" alt="booklist">
+        <div> 
+            <h2 class="titrebook">Learning ECMAScript 6 <br> <span>Narayan Prusty</span></h2>
+            <p> Learn all the new ES6 features and be amongst the most prominent JavaScript  developers who can write efficient JS programs as per the latest standards! About This Book Learn a powerful approach to writing object-oriented JavaScript code using ES6 Create and use ES6 modules to learn to write smart, modularized JavaScript code</p> 
+        </div> 
         <p class=" pricebook">27.42 €</p>     
     </article>
 
-
-
-        
-    <article id="api-response2">
-        <img class="imgbook" src="img/Rectangle13.jpg" alt="booklist" >
-     <div> 
-        <h2 class="titrebook">Learning ECMAScript 6 <br> <span>Narayan Prusty</span></h2>
-        <p> Learn all the new ES6 features and be amongst the most prominent JavaScript  developers who can write efficient JS programs as per the latest standards! About This Book Learn a powerful approach to writing object-oriented JavaScript code using ES6 Create and use ES6 modules to learn to write smart, modularized JavaScript code</p> 
-    </div> 
+    <article>
+            <img class="imgbook" src="img/Rectangle13.jpg" alt="booklist" >
+        <div> 
+            <h2 class="titrebook">Learning ECMAScript 6 <br> <span>Narayan Prusty</span></h2>
+            <p> Learn all the new ES6 features and be amongst the most prominent JavaScript  developers who can write efficient JS programs as per the latest standards! About This Book Learn a powerful approach to writing object-oriented JavaScript code using ES6 Create and use ES6 modules to learn to write smart, modularized JavaScript code</p> 
+        </div> 
         <p class=" pricebook">27.42 €</p>     
     </article>
 
 
     
 
-    <article id="api-response3">
+    <article>
         <img class="imgbook" src="img/Rectangle13.jpg" alt="booklist" >
      <div> 
         <h2 class="titrebook">Learning ECMAScript 6 <br> <span>Narayan Prusty</span></h2>
@@ -99,7 +96,7 @@
         <p class=" pricebook">27.42 €</p>     
     </article>
 
-    <article id="api-response4">
+    <article>
         <img class="imgbook" src="img/Rectangle13.jpg" alt="booklist" >
      <div> 
         <h2 class="titrebook">Learning ECMAScript 6 <br> <span>Narayan Prusty</span></h2>
@@ -108,7 +105,7 @@
         <p class=" pricebook">27.42 €</p>     
     </article>
     
-    <article id="api-response5">
+    <article>
         <img class="imgbook" src="img/Rectangle13.jpg" alt="booklist" >
      <div> 
         <h2 class="titrebook">Learning ECMAScript 6 <br> <span>Narayan Prusty</span></h2>
@@ -119,42 +116,41 @@
 
 </section>
 
-<section id="footer">
-
+<section id="footer" >
+<div>
     <img src="img/Group6.svg" alt="logo footer">
     <h2>Toutes les ressources du site</h2>
-<div>
+</div>
+
+<section> 
+<div class="footblock">
     <ul>
         <li><a href="#">Page d'Acceuil</a></li> 
         <li><a href="#">Livres papier</a></li> 
         <li><a href="#">Ebooks / Epubs</a></li> 
         <li><a href="#">Livres audio</a></li> 
     </ul>
-</div>
 
-<div>
-    <ul>
+    <ul >
         <li><a href="#">Policier</a></li> 
         <li><a href="#">Science Fiction</a></li> 
         <li><a href="#">Frisson</a></li> 
         <li><a href="#">Mediéval</a></li> 
         <li><a href="#">Toutes les categories</a></li>  
     </ul>   
-</div>
 
-<div>
-    <ul>
-    <li><a href="#">Promotions</a></li> 
-    <li><a href="#">Livre à paraitre prochainement</a></li> 
-    <li><a href="#">Meilleures ventes</a></li> 
-    <li><a href="#">Incontournables</a></li> 
-    <li><a href="#">Tous les bons plans</a></li>  
+    <ul >
+        <li><a href="#">Promotions</a></li> 
+        <li><a href="#">Livre à paraitre prochainement</a></li> 
+        <li><a href="#">Meilleures ventes</a></li> 
+        <li><a href="#">Incontournables</a></li> 
+        <li><a href="#">Tous les bons plans</a></li>  
     </ul>
 </div>
     
 
 </section >
-<script src="javascript/main.js"></script>
+<!-- <script src="javascript/main.js"></script> -->
 <script>
     
     sendQuery('https://www.googleapis.com/books/v1/volumes?q=ecmascript')
